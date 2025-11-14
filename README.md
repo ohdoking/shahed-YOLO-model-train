@@ -29,6 +29,7 @@ source venv/bin/activate
 pip install --upgrade pip setuptools wheel
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 pip install ultralytics opencv-python
+pip install picamera2 numpy
 ```
 
 ## How to run 
