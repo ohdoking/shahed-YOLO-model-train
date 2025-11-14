@@ -4,7 +4,8 @@ from ultralytics import YOLO
 def main():
     model = YOLO('/home/dokeunoh/Desktop/project/shahed-YOLO-model-train/best_tmp.pt')  # path to your trained model
 
-    cap = cv2.VideoCapture(0)
+    # cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture('/dev/video0') # Use the explicit device path
     if not cap.isOpened():
         print("Error: Could not open camera")
         return
