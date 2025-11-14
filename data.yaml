@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: ['1']
+
+# roboflow:
+#   workspace: uav-taebs
+#   project: shahed136-detect-thn08
+#   version: 2
+#   license: Public Domain
+#   url: https://universe.roboflow.com/uav-taebs/shahed136-detect-thn08/dataset/2

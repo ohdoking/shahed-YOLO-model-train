@@ -1,4 +1,4 @@
-# Shahed model training
+# Shahed YOLO Model Train
 
 ## Project structure
 
@@ -47,4 +47,4 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
 
 ## Reference
 - https://universe.roboflow.com/uav-taebs/shahed136-detect-thn08/dataset/2
-- https://universe.roboflow.com/shahed136/shahed136-detect/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true# shahed-YOLO-model-train
+- https://universe.roboflow.com/shahed136/shahed136-detect/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true# 
