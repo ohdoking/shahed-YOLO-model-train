@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 def main():
-    model = YOLO('/home/pi/models/best.pt')  # path to your trained model
+    model = YOLO('/home/dokeunoh/Desktop/project/shahed-YOLO-model-train/best_tmp.pt')  # path to your trained model
 
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
