@@ -3,7 +3,7 @@ val: ./valid/images
 test: ./test/images
 
 nc: 1
-names: ['1']
+names: ['shahed136']
 
 # roboflow:
 #   workspace: uav-taebs

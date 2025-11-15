@@ -49,4 +49,6 @@ yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=100 imgsz=640
 ## Reference
 - https://universe.roboflow.com/uav-taebs/shahed136-detect-thn08/dataset/2
 - https://universe.roboflow.com/shahed136/shahed136-detect/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true 
+- https://universe.roboflow.com/bbokyeong/shahed-136-chbsm/dataset/1
+- https://www.kaggle.com/datasets/banderastepan/drone-detection
 - https://docs.ultralytics.com/modes/train/#arguments
