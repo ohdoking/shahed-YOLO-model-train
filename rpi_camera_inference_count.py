@@ -27,7 +27,7 @@ def main():
         # Removed: ret, frame = cap.read() # frame_bgr is the frame now
         
         # YOLO Processing uses the BGR frame
-        results = model(frame_bgr)
+        results = model(frame_bgr, conf=0.35)
 
         # Get detected boxes, confidences, and class IDs
         boxes = results[0].boxes
