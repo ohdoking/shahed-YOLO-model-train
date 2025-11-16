@@ -106,3 +106,4 @@ yolo export model=best_tmp.pt format=tflite int8 data=data.yaml
 - https://www.kaggle.com/datasets/banderastepan/drone-detection
 - https://universe.roboflow.com/aircraft-ol8hx/shahed-136-ohjzr
 - https://docs.ultralytics.com/modes/train/#arguments
+- https://github.com/majipa007/Quantization-YOLOv8
