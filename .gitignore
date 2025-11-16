@@ -3,3 +3,7 @@ test/
 train/
 valid/
 shahed_dataset/
+datasets/
+venv_311_final/
+venv_312/
+venv/
