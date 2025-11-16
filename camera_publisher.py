@@ -18,7 +18,7 @@ def main():
             frame = picam2.capture_array()
             _, jpeg = cv2.imencode('.jpg', frame)
             socket.send(jpeg.tobytes())
-            time.sleep(0.03)  # ~30 FPS
+            time.sleep(1)  # ~30 FPS
     except KeyboardInterrupt:
         pass
     finally:
