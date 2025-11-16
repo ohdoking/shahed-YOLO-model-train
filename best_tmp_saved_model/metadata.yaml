@@ -1,0 +1,21 @@
+description: Ultralytics best_tmp model trained on data.yaml
+author: Ultralytics
+date: '2025-11-16T00:33:19.914550'
+version: 8.3.228
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: shahed136
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
