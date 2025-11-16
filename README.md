@@ -4,6 +4,20 @@
 
 This process involves two main phases: training your object detection model using YOLOv8 (PyTorch) and then quantizing and exporting it to the TFLite format so it can run efficiently on the Raspberry Pi's CPU.
 
+## Key Steps
+
+1. **Data Labeling**  
+   Labeled image data using the Roboflow platform and downloaded the dataset formatted for YOLOv8.
+
+2. **data.yaml Configuration**  
+   Created and configured the `data.yaml` file containing paths to training/validation data and class information, tailored for YOLOv8 training.
+
+3. **YOLOv8 Pretrained Model Fine-tuning**  
+   Fine-tuned a pretrained YOLOv8 model using the labeled data from Roboflow.
+
+4. **INT8 Quantization**  
+   Performed INT8 quantization to reduce model size and improve inference speed.
+
 ## How to work
 
 ### Phase 1: Training the YOLOv8 Model
