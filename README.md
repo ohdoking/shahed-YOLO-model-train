@@ -108,3 +108,4 @@ yolo export model=best_tmp.pt format=tflite int8 data=data.yaml
 - https://docs.ultralytics.com/modes/train/#arguments
 - https://github.com/majipa007/Quantization-YOLOv8
 - https://github.com/superintelligence-lab/tensorflow_model_optimization/tree/main
+- https://medium.com/cord-tech/yolov8-for-object-detection-explained-practical-example-23920f77f66a
